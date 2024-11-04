@@ -36,4 +36,8 @@ void draw(){
 void keyPressed(){
   mb.keyPressed(key);
   ms.keyPressed(key);
+  
+  if(key == 's'){
+    save("frame.jpg");
+  }
 }
